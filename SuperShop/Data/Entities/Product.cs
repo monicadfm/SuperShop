@@ -24,7 +24,7 @@ namespace SuperShop.Data.Entities
         public DateTime? LastSale { get; set; }
 
         [Display(Name = "Is Avaiable")]
-        public bool IsAvaiable { get; set; }
+        public bool IsAvailable { get; set; }
 
         [DisplayFormat(DataFormatString = "{0:N2}", ApplyFormatInEditMode = false)]
         public double Stock { get; set; }
