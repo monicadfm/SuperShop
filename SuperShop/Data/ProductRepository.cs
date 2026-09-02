@@ -6,6 +6,6 @@ namespace SuperShop.Data
     {
         public ProductRepository(DataContext context) : base(context)
         {
-        }
+        } 
     }
 }
