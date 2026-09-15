@@ -49,7 +49,7 @@ namespace SuperShop
 
             services.AddScoped<IUserHelper, UserHelper>();
 
-            services.AddScoped<IImageHelper, ImageHelper>();
+            services.AddScoped<IBlobHelper, BlobHelper>();
 
             services.AddScoped<IConverterHelper, ConverterHelper>();
 
